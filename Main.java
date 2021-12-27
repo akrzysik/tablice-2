@@ -23,8 +23,8 @@ public class Main {
       return min;
    }
 
-   public static int srednia(int[] tablica, int rozmiar) {
-      return suma(tablica, rozmiar) / rozmiar;
+   public static double srednia(int[] tablica, int rozmiar) {
+      return suma(tablica, rozmiar) / (double)rozmiar;
    }
    
    public static void wczytaj_tablice(int[] tablica, int rozmiar) throws IOException {
